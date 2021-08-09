@@ -1,0 +1,80 @@
+.header{
+    background-color:#f8e1db;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+table {
+    margin-top: 10px;
+}
+.home{
+    color: #e76f51;
+}
+.carousel{
+    background-image: url("BG.png");
+    height: 550px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 200px 200px;
+    
+}
+.carousel_content{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    display: flex;
+}
+.item{
+    width: 25%;
+    text-align: center;
+    padding: 10px; 
+}
+.content_item{
+    background-color: rgba(255, 244, 244, 0.986);
+    padding: 40px 60px;
+    border-radius: 20%;
+}
+.activity{
+
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+.activity_title{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    color: rgb(207, 127, 29);
+}
+.activity_item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.all_item{
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    height: auto;
+    
+}
+.block_content{
+    padding: 40px;
+    background-color:rgba(218, 213, 213, 0.932);
+    border-radius: 10px;
+}
+.img{
+    position: relative;
+    
+}
+.detail_button button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    background-color: burlywood;
+    color: gray;
+    font-size: 18px;   
+    border:transparent;
+}
